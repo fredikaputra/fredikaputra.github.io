@@ -47,7 +47,6 @@ export const DATA = {
   work: [
     {
       company: "BPR Dana Nusantara",
-      href: "https://bprdn.com",
       badges: [],
       location: "Kepulauan Riau, Indonesia",
       title: "Full Stack Developer",
@@ -59,7 +58,6 @@ export const DATA = {
     },
     {
       company: "Wajah SIBA Nusantara",
-      href: "https://sibalogistik.com",
       badges: [],
       location: "Kepulauan Riau, Indonesia",
       title: "Full Stack Developer",
