@@ -51,7 +51,7 @@ export const DATA = {
       badges: [],
       location: "Kepulauan Riau, Indonesia",
       title: "Full Stack Developer",
-      logoUrl: "https://bprdn.com/assets/img/logo_bprdn.png",
+      logoUrl: "bprdn.png",
       start: "May 2022",
       end: "Now",
       description:
@@ -63,7 +63,7 @@ export const DATA = {
       badges: [],
       location: "Kepulauan Riau, Indonesia",
       title: "Full Stack Developer",
-      logoUrl: "https://sibalogistik.com/assets/img/logosiba.webp",
+      logoUrl: "siba.webp",
       start: "Aug 2021",
       end: "May 2022",
       description:
