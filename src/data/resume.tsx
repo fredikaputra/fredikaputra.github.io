@@ -67,6 +67,28 @@ export const DATA = {
       description:
         "Built digital systems with Laravel to streamline operations, created responsive dashboards for improved usability, and implemented enhancements based on user feedback.",
     },
+    {
+      company: "Intan Medika Clinic",
+      badges: [],
+      location: "Kepulauan Riau, Indonesia",
+      title: "Data Entry Clerk",
+      logoUrl: "medika.png",
+      start: "May 2021",
+      end: "Jul 2021",
+      description:
+        "Contributed during the Covid-19 pandemic by managing patient records with Microsoft Access, ensuring accuracy, confidentiality, and compliance with medical standards. Supported healthcare staff by maintaining reliable databases that were critical to daily clinical operations during a challenging period.",
+    },
+    {
+      company: "Baliyoni Saguna",
+      badges: [],
+      location: "Bali, Indonesia",
+      title: "Web Developer Intern",
+      logoUrl: "baliyoni.png",
+      start: "Aug 2018",
+      end: "May 2018",
+      description:
+        "Developed a company portfolio website to highlight services, products, and client solutions, working closely with the team to structure content and improve presentation. Delivered a responsive design that enhanced the company's professional image and provided potential clients with a clearer understanding of available solutions.",
+    },
   ],
   education: [
     {

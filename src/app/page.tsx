@@ -56,6 +56,7 @@ export default function Page() {
               <ResumeCard
                 key={work.company}
                 logoUrl={work.logoUrl}
+                location={work.location}
                 altText={work.company}
                 title={work.company}
                 subtitle={work.title}
