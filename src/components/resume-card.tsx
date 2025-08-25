@@ -76,7 +76,7 @@ export const ResumeCard = ({
               )}
             />
           </h3>
-          <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+          <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right whitespace-nowrap">
             {period}
           </div>
         </div>
@@ -107,6 +107,7 @@ export const ResumeCard = ({
     className="block cursor-pointer"
     href={href}
     onClick={handleClick}
+    target="_blank"
   >
     <Content />
   </Link> : <button
