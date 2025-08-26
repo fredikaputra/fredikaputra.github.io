@@ -8,7 +8,7 @@ export const DATA = {
   description:
     "Turning complex problems into elegant solutions, building applications that work seamlessly, and constantly exploring what's next in technology.",
   summary:
-    "I'm a full-stack developer with over 3 years of experience in Laravel and Vue, currently creating secure and efficient systems in the banking sector. I enjoy tackling complex problems and building solutions that make a real impact.",
+    "I'm a full-stack developer with experience in Laravel and Vue, currently creating secure and efficient systems in the banking sector. I enjoy tackling complex problems and building solutions that make a real impact.",
   skills: [
     "Laravel",
     "Livewire",
@@ -121,6 +121,7 @@ export const DATA = {
         "shadcn/ui",
         "WebSocket",
         "SQLite",
+        "In Progress",
       ],
       links: [],
       image: "",
@@ -142,7 +143,8 @@ export const DATA = {
         "WebSocket",
         "Whisper",
         "YAMNet",
-        "Batam International University"
+        "Batam International University",
+        "In Progress",
       ],
       links: [],
       image: "",
@@ -209,6 +211,34 @@ export const DATA = {
       links: [],
     },
     {
+      title: "Independent Study Program - IBM Academy: Hybrid Cloud & Red Hat",
+      dates: "September - December 2024",
+      location: "Infinite Learning",
+      description:
+        "Completed IBM Academy's Hybrid Cloud & Red Hat program (MSIB Batch 7) through Infinite Learning.",
+      image: "infinitelearning.png",
+      links: [
+        {
+          title: "Certificate",
+          href: "https://drive.google.com/file/d/1wSdNIU7sq-TZKxv_QSTJOMMnx5FYZXO-/view",
+        }
+      ],
+    },
+    {
+      title: "Internship Program - IBM Academy: Hybrid Cloud & Red Hat",
+      dates: "September - December 2024",
+      location: "Infinite Learning",
+      description:
+        "Completed Internship Program at Infinite Learning.",
+      image: "infinitelearning.png",
+      links: [
+        {
+          title: "Certificate",
+          href: "https://drive.google.com/file/d/1YhVofRIbRVroTMFjAgqg1rpv4-fx361i/view",
+        }
+      ],
+    },
+    {
       title: "Customer Care",
       dates: "July - October 2024",
       location: "BPR Dana Nusantara",
@@ -225,6 +255,20 @@ export const DATA = {
         "Built an internal DNS with BIND9 and reverse proxy with Nginx to route domains to a Docker host serving multiple internal web apps.",
       image: "danus.png",
       links: [],
+    },
+    {
+      title: "Data Analysis with Google Data Studio - Ruang Guru",
+      dates: "June 02, 2023",
+      location: "BPR Dana Nusantara",
+      description:
+        "Completed Data Analysis with Google Data Studio course by Ruang Guru.",
+      image: "ruangguru.png",
+      links: [
+        {
+          title: "Certificate",
+          href: "https://img-certificate.ruangguru.com/USERASZU61O4/CERT-LETC31UK.jpg",
+        }
+      ],
     },
     {
       title: "3rd Place Overall - Software Engineering Department",
