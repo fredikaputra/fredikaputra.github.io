@@ -13,7 +13,6 @@ import Markdown from "react-markdown";
 
 interface Props {
   title: string;
-  href?: string;
   description: string;
   dates: string;
   tags: readonly string[];
@@ -30,7 +29,6 @@ interface Props {
 
 export function ProjectCard({
   title,
-  href,
   description,
   dates,
   tags,
@@ -46,9 +44,8 @@ export function ProjectCard({
         "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
       }
     >
-      <Link
-        href={href || "#"}
-        className={cn("block cursor-pointer", className)}
+      <div
+        className={cn("block", className)}
       >
         {video && (
           <video
@@ -69,7 +66,7 @@ export function ProjectCard({
             className="h-40 w-full overflow-hidden object-cover object-top"
           />
         )}
-      </Link>
+      </div>
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
