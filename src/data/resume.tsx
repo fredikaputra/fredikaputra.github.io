@@ -170,7 +170,7 @@ export const DATA = {
   hackathons: [
     {
       title: "Awarded Best Paper at the National Conference for Community Service Project",
-      dates: "August 20, 2025",
+      dates: "Aug 20, 2025",
       location: "Batam International University",
       description: "Awarded Best Paper at the National Conference for Community Service Project for developing DanusCrypt, an AES-based encryption system that enhanced information security and strengthened project reliability at BPR Dana Nusantara.",
       image: "nacospro.png",
@@ -184,7 +184,7 @@ export const DATA = {
     },
     {
       title: "Riplay",
-      dates: "June - August 2025",
+      dates: "Jun - Aug 2025",
       location: "BPR Dana Nusantara",
       description: "Riplay is a Filament-based document management system for banking products, designed to streamline compliance by enabling the creation, updating, and versioning of client-facing documents. It ensures clients review and accept required terms before opening accounts while tracking product agreements for regulatory accountability.",
       image: "danus.png",
@@ -192,7 +192,7 @@ export const DATA = {
     },
     {
       title: "Independent Study Program - IBM Academy: Hybrid Cloud & Red Hat",
-      dates: "September - December 2024",
+      dates: "Sep - Dec 2024",
       location: "Infinite Learning",
       description: "Completed the IBM Academy: Hybrid Cloud & Red Hat program (MSIB Batch 7) through Infinite Learning, with hands-on training in Linux system administration, cloud infrastructure management, containerization using Podman, and deploying enterprise-grade solutions on Kubernetes, OpenShift, IBM Cloud, and Red Hat technologies.",
       image: "infinitelearning.png",
@@ -206,7 +206,7 @@ export const DATA = {
     },
     {
       title: "Internship Program - IBM Academy: Hybrid Cloud & Red Hat",
-      dates: "September - December 2024",
+      dates: "Sep - Dec 2024",
       location: "Infinite Learning",
       description: "Completed the Internship Program - IBM Academy: Hybrid Cloud & Red Hat at Infinite Learning, learning how to think as a system administrator while working with Linux, cloud computing, containerization, and enterprise-grade solutions using IBM Cloud and Red Hat technologies.",
       image: "infinitelearning.png",
@@ -220,7 +220,7 @@ export const DATA = {
     },
     {
       title: "Customer Care",
-      dates: "July - October 2024",
+      dates: "Jul - Oct 2024",
       location: "BPR Dana Nusantara",
       description: "Customer Care is a web-based system built with Filament to streamline client issue management at BPR Dana Nusantara, enabling customer service to log problems, route them to the right departments, and provide clients with real-time updates and feedback through an online tracking portal.",
       image: "danus.png",
@@ -228,7 +228,7 @@ export const DATA = {
     },
     {
       title: "Internal DNS & Reverse Proxy Setup",
-      dates: "June 2024",
+      dates: "Jun 2024",
       location: "BPR Dana Nusantara",
       description: "Built an internal DNS with BIND9 and an Nginx reverse proxy to route domains to a Docker host, allowing employees to access internal web apps through custom subdomains (e.g., customer-care.bank.com, document.bank.com) within the company network, without needing to type server IP addresses or ports.",
       image: "danus.png",
@@ -244,7 +244,7 @@ export const DATA = {
     },
     {
       title: "3rd Place Overall - Software Engineering Department",
-      dates: "June 07, 2020",
+      dates: "Jun 07, 2020",
       location: "Bali Global Badung Vocational High School of Information Technology",
       description:
         "Awarded 3rd place overall among all students in the Software Engineering program for outstanding academic and project performance.",
@@ -259,7 +259,7 @@ export const DATA = {
     },
     {
       title: "Volunteer - Annual Meetings of the International Monetary Fund and World Bank Group 2018",
-      dates: "October 8 - 14, 2018",
+      dates: "Oct 01 - 14, 2018",
       location: "Nusa Dua, Bali, Indonesia",
       description:
         "Volunteered at the 2018 Annual Meetings of the International Monetary Fund and World Bank Group in Nusa Dua, Bali by setting up and monitoring laptops, printers, and network connections as the hotel was transformed into a temporary office.",
