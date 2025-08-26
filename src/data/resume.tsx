@@ -125,8 +125,7 @@ export const DATA = {
       ],
       links: [],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: "veilenth.mov",
     },
     {
       title: "Noisely",
@@ -148,8 +147,7 @@ export const DATA = {
       ],
       links: [],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: "noisely.mov",
     },
     {
       title: "DanusCrypt",
@@ -166,33 +164,16 @@ export const DATA = {
       ],
       links: [],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "QuickDrop",
-      dates: "Aug 2023 - Des 2023",
-      description:
-        "An instant file-sharing app designed to enable fast and easy transfer of files between devices. It focuses on providing a smooth, efficient, and user-friendly experience for handling files.",
-      technologies: [
-        "Laravel",
-        "Flutter",
-        "Batam International University"
-      ],
-      links: [],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
+      video: "danus-crypt.mov",
+    }
   ],
   hackathons: [
     {
       title: "Awarded Best Paper at the National Conference for Community Service Project",
       dates: "August 20, 2025",
       location: "Batam International University",
-      description:
-        "Honored for creating an AES-based encryption system in DanusCrypt, improving information security and project reliability at BPR Dana Nusantara.",
-      image: "nacospro.jpg",
+      description: "Awarded Best Paper at the National Conference for Community Service Project for developing DanusCrypt, an AES-based encryption system that enhanced information security and strengthened project reliability at BPR Dana Nusantara.",
+      image: "nacospro.png",
       links: [
         {
           title: "YouTube",
@@ -205,8 +186,7 @@ export const DATA = {
       title: "Riplay",
       dates: "June - August 2025",
       location: "BPR Dana Nusantara",
-      description:
-        "Riplay is a Filament-based document management system for banking products. It enables creating, updating, and versioning documents that clients must read and accept before opening accounts, while tracking which products each client agrees to for compliance.",
+      description: "Riplay is a Filament-based document management system for banking products, designed to streamline compliance by enabling the creation, updating, and versioning of client-facing documents. It ensures clients review and accept required terms before opening accounts while tracking product agreements for regulatory accountability.",
       image: "danus.png",
       links: [],
     },
@@ -214,13 +194,13 @@ export const DATA = {
       title: "Independent Study Program - IBM Academy: Hybrid Cloud & Red Hat",
       dates: "September - December 2024",
       location: "Infinite Learning",
-      description:
-        "Completed IBM Academy's Hybrid Cloud & Red Hat program (MSIB Batch 7) through Infinite Learning.",
+      description: "Completed the IBM Academy: Hybrid Cloud & Red Hat program (MSIB Batch 7) through Infinite Learning, with hands-on training in Linux system administration, cloud infrastructure management, containerization using Podman, and deploying enterprise-grade solutions on Kubernetes, OpenShift, IBM Cloud, and Red Hat technologies.",
       image: "infinitelearning.png",
       links: [
         {
           title: "Certificate",
           href: "https://drive.google.com/file/d/1wSdNIU7sq-TZKxv_QSTJOMMnx5FYZXO-/view",
+          icon: undefined
         }
       ],
     },
@@ -228,13 +208,13 @@ export const DATA = {
       title: "Internship Program - IBM Academy: Hybrid Cloud & Red Hat",
       dates: "September - December 2024",
       location: "Infinite Learning",
-      description:
-        "Completed Internship Program at Infinite Learning.",
+      description: "Completed the Internship Program - IBM Academy: Hybrid Cloud & Red Hat at Infinite Learning, learning how to think as a system administrator while working with Linux, cloud computing, containerization, and enterprise-grade solutions using IBM Cloud and Red Hat technologies.",
       image: "infinitelearning.png",
       links: [
         {
           title: "Certificate",
           href: "https://drive.google.com/file/d/1YhVofRIbRVroTMFjAgqg1rpv4-fx361i/view",
+          icon: undefined
         }
       ],
     },
@@ -242,8 +222,7 @@ export const DATA = {
       title: "Customer Care",
       dates: "July - October 2024",
       location: "BPR Dana Nusantara",
-      description:
-        "Customer Care is a system built with Filament to manage client issues at BPR Dana Nusantara. Customer service logs problems, departments handle them, and clients receive feedback via an online tracking portal.",
+      description: "Customer Care is a web-based system built with Filament to streamline client issue management at BPR Dana Nusantara, enabling customer service to log problems, route them to the right departments, and provide clients with real-time updates and feedback through an online tracking portal.",
       image: "danus.png",
       links: [],
     },
@@ -251,24 +230,17 @@ export const DATA = {
       title: "Internal DNS & Reverse Proxy Setup",
       dates: "June 2024",
       location: "BPR Dana Nusantara",
-      description:
-        "Built an internal DNS with BIND9 and reverse proxy with Nginx to route domains to a Docker host serving multiple internal web apps.",
+      description: "Built an internal DNS with BIND9 and an Nginx reverse proxy to route domains to a Docker host, allowing employees to access internal web apps through custom subdomains (e.g., customer-care.bank.com, document.bank.com) within the company network, without needing to type server IP addresses or ports.",
       image: "danus.png",
       links: [],
     },
     {
-      title: "Data Analysis with Google Data Studio - Ruang Guru",
-      dates: "June 02, 2023",
-      location: "BPR Dana Nusantara",
-      description:
-        "Completed Data Analysis with Google Data Studio course by Ruang Guru.",
-      image: "ruangguru.png",
-      links: [
-        {
-          title: "Certificate",
-          href: "https://img-certificate.ruangguru.com/USERASZU61O4/CERT-LETC31UK.jpg",
-        }
-      ],
+      title: "QuickDrop",
+      dates: "Aug - Des 2023",
+      location: "Batam International University",
+      description: "An instant file-sharing application developed to simplify and accelerate file transfers between devices, emphasizing speed, reliability, and a seamless user experience — like Pastebin but for files, where uploads are stored temporarily in the cloud with options for password protection and expiration before download.",
+      image: "uib.png",
+      links: [],
     },
     {
       title: "3rd Place Overall - Software Engineering Department",
@@ -298,8 +270,7 @@ export const DATA = {
       title: "Web Programming Course - Decode.id",
       dates: "May 28, 2018",
       location: "Denpasar, Bali, Indonesia",
-      description:
-        "Completed Web Programming course at Decode.id",
+      description: "Completed a Web Programming course at Decode.id, focusing on PHP, JavaScript, Laravel, and database integration to develop dynamic, scalable, and interactive web applications.",
       image: "decode.jpg",
       links: [],
     },
@@ -307,8 +278,7 @@ export const DATA = {
       title: "Web Design Course - Decode.id",
       dates: "Jan 01, 2018",
       location: "Denpasar, Bali, Indonesia",
-      description:
-        "Completed Web Design course at Decode.id",
+      description: "Completed an intensive Web Design course at Decode.id, gaining practical skills in HTML, CSS, responsive layouts, and UI/UX fundamentals to create modern, user-friendly websites.",
       image: "decode.jpg",
       links: [],
     },
