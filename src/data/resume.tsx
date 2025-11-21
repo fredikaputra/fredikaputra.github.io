@@ -152,6 +152,24 @@ export const DATA = {
       link: "/projects/noisely",
     },
     {
+      title: "Tracking Project",
+      dates: "",
+      description:
+        "A comprehensive project management system designed to track project history, meeting notes, and progress across multiple initiatives. Users can create detailed project timelines, add descriptions, update status, set progress percentages (0-100%), and assign team members to specific projects. The system provides export functionality for project history and offers a centralized platform for monitoring all ongoing and completed projects with full audit trails.",
+      technologies: [
+        "Laravel 8",
+        "Livewire 2",
+        "Bootstrap 4",
+        "MySQL",
+        "Project Management",
+        "Timeline Tracking"
+      ],
+      links: [],
+      image: "",
+      video: "/tracking-project.mov",
+      link: "/projects/tracking-project",
+    },
+    {
       title: "Pembukaan Rekening",
       dates: "",
       description:
