@@ -152,6 +152,25 @@ export const DATA = {
       link: "/projects/noisely",
     },
     {
+      title: "Order Taksasi",
+      dates: "",
+      description:
+        "An internal workflow management system for the marketing team at BPR Dana Nusantara to order property assessment jobs. The taksasi team receives orders, conducts property evaluations, and updates status throughout the process. Marketing team can then download detailed assessment reports. Features role-based access control for supervisors, marketing staff, and taksasi team with comprehensive workflow tracking.",
+      technologies: [
+        "Laravel 12",
+        "Filament 3",
+        "Livewire 3",
+        "Tailwind",
+        "MySQL",
+        "Role-based Access Control",
+        "BPR Dana Nusantara"
+      ],
+      links: [],
+      image: "",
+      video: "/order-taksasi.mov",
+      link: "/projects/order-taksasi",
+    },
+    {
       title: "DanusCrypt",
       dates: "",
       description:
