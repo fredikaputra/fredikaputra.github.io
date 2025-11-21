@@ -111,7 +111,7 @@ export const DATA = {
   projects: [
     {
       title: "Veilenth",
-      dates: "Jun 2025 - Present",
+      dates: "",
       description:
         "A real-time collaborative platform where people create digital rooms to sync music, presence, and atmosphere — making online connection feel less like a chatroom and more like hanging out together.",
       technologies: [
@@ -125,11 +125,12 @@ export const DATA = {
       ],
       links: [],
       image: "",
-      video: "veilenth.mov",
+      video: "/veilenth.mov",
+      link: "/projects/veilenth",
     },
     {
       title: "Noisely",
-      dates: "Oct 2024 - Present",
+      dates: "",
       description:
         "A research project that enables real-time audio event recognition and transcription by processing sound data on centralized servers, using [YAMNet](https://ai.google.dev/edge/mediapipe/solutions/audio/audio_classifier#yamnet_model_recommended) for sound classification and [Whisper](https://openai.com/index/whisper) for speech transcription, to accurately detect events such as gunshots, glass breaking, and human speech.",
       technologies: [
@@ -147,11 +148,12 @@ export const DATA = {
       ],
       links: [],
       image: "",
-      video: "noisely.mov",
+      video: "/noisely.mov",
+      link: "/projects/noisely",
     },
     {
       title: "DanusCrypt",
-      dates: "Jan 2024 - Jun 2024",
+      dates: "",
       description:
         "An internal security application developed for BPR Dana Nusantara to protect digital documents. It provides encryption, decryption, secure login, role-based access, and activity logging, ensuring company data remains confidential and safe from unauthorized access.",
       technologies: [
@@ -164,7 +166,8 @@ export const DATA = {
       ],
       links: [],
       image: "",
-      video: "danus-crypt.mov",
+      video: "/danus-crypt.mov",
+      link: "/projects/danus-crypt",
     }
   ],
   hackathons: [

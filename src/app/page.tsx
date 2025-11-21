@@ -5,9 +5,11 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Card } from "@/components/ui/card";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { ArrowRightIcon } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -139,9 +141,25 @@ export default function Page() {
                   image={project.image}
                   video={project.video}
                   links={project.links}
+                  link={project.link}
                 />
               </BlurFade>
             ))}
+            <BlurFade delay={BLUR_FADE_DELAY * 12 + DATA.projects.length * 0.05}>
+              <Link href="/projects">
+                <Card className="flex flex-col items-center justify-center p-8 border-2 border-dashed hover:border-solid hover:shadow-lg transition-all duration-300 ease-out h-full min-h-[200px] cursor-pointer group">
+                  <div className="text-center space-y-2">
+                    <div className="text-2xl font-bold text-muted-foreground group-hover:text-foreground transition-colors">
+                      See All Work
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      View {DATA.projects.length}+ projects
+                    </div>
+                    <ArrowRightIcon className="mx-auto h-5 w-5 text-muted-foreground group-hover:text-foreground transition-colors mt-2" />
+                  </div>
+                </Card>
+              </Link>
+            </BlurFade>
           </div>
         </div>
       </section>

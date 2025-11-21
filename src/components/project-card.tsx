@@ -38,12 +38,8 @@ export function ProjectCard({
   links,
   className,
 }: Props) {
-  return (
-    <Card
-      className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
-      }
-    >
+  const cardContent = (
+    <>
       <div
         className={cn("block", className)}
       >
@@ -97,17 +93,34 @@ export function ProjectCard({
       <CardFooter className="px-2 pb-2">
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
-            {links?.map((link, idx) => (
-              <Link href={link?.href} key={idx} target="_blank">
+            {links?.map((linkItem, idx) => (
+              <Link href={linkItem?.href} key={idx} target="_blank">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
-                  {link.icon}
-                  {link.type}
+                  {linkItem.icon}
+                  {linkItem.type}
                 </Badge>
               </Link>
             ))}
           </div>
         )}
       </CardFooter>
+    </>
+  );
+
+  return (
+    <Card
+      className={
+        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full" + 
+        (link ? " cursor-pointer" : "")
+      }
+    >
+      {link ? (
+        <Link href={link} className="block h-full">
+          {cardContent}
+        </Link>
+      ) : (
+        cardContent
+      )}
     </Card>
   );
 }
