@@ -152,6 +152,25 @@ export const DATA = {
       link: "/projects/noisely",
     },
     {
+      title: "Pembukaan Rekening",
+      dates: "",
+      description:
+        "A digital transformation project that modernizes the conventional paper-based bank account opening process at BPR Dana Nusantara. Customer service representatives input customer data digitally, which is then reviewed by Head Customer Service for approval or rejection. The system eliminates paperwork, reduces processing time, and provides a streamlined digital workflow for new account applications with proper audit trails and compliance tracking.",
+      technologies: [
+        "Laravel 12",
+        "Filament 3",
+        "Livewire 3",
+        "Tailwind",
+        "MySQL",
+        "Digital Transformation",
+        "BPR Dana Nusantara"
+      ],
+      links: [],
+      image: "",
+      video: "/pembukaan-rekening.mov",
+      link: "/projects/pembukaan-rekening",
+    },
+    {
       title: "Order Taksasi",
       dates: "",
       description:
