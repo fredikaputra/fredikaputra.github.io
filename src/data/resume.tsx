@@ -208,6 +208,25 @@ export const DATA = {
       link: "/projects/order-taksasi",
     },
     {
+      title: "Customer Care",
+      dates: "",
+      description:
+        "A comprehensive customer service management system that enables customer service teams to efficiently handle and track customer complaints. The system allows complaint routing to appropriate division teams, who process and resolve issues before returning them to customer service for final customer notification via email, phone, or direct communication when customers return to the bank.",
+      technologies: [
+        "Laravel 10",
+        "Livewire 3",
+        "Bootstrap 5",
+        "MySQL",
+        "Email Notifications",
+        "Complaint Management",
+        "BPR Dana Nusantara"
+      ],
+      links: [],
+      image: "",
+      video: "/customer-care.mov",
+      link: "/projects/customer-care",
+    },
+    {
       title: "DanusCrypt",
       dates: "",
       description:
