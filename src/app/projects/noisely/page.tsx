@@ -117,7 +117,7 @@ export default function NoiselyPage() {
                 <div>
                   <h4 className="font-semibold mb-2">YAMNet Integration</h4>
                   <p className="text-sm text-muted-foreground">
-                    Google's YAMNet model provides real-time audio event detection, 
+                    Google&apos;s YAMNet model provides real-time audio event detection, 
                     capable of identifying specific sounds like gunshots, glass breaking, 
                     alarms, and other environmental audio events with high accuracy.
                   </p>
@@ -125,7 +125,7 @@ export default function NoiselyPage() {
                 <div>
                   <h4 className="font-semibold mb-2">Whisper Transcription</h4>
                   <p className="text-sm text-muted-foreground">
-                    OpenAI's Whisper model handles speech-to-text transcription, 
+                    OpenAI&apos;s Whisper model handles speech-to-text transcription, 
                     converting spoken language into written text with support for 
                     multiple languages and high accuracy rates.
                   </p>

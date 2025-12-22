@@ -8,13 +8,15 @@ export const DATA = {
   description:
     "Turning complex problems into elegant solutions, building applications that work seamlessly, and constantly exploring what's next in technology.",
   summary:
-    "I'm a full-stack developer with experience in Laravel and Vue, currently creating secure and efficient systems in the banking sector. I enjoy tackling complex problems and building solutions that make a real impact.",
+    "I'm a full-stack developer with experience in Laravel and React, currently creating secure and efficient systems in the banking sector. I enjoy tackling complex problems and building solutions that make a real impact.",
   skills: [
     "Laravel",
     "Livewire",
     "AlpineJS",
     "Vue",
+    "Nuxt",
     "React",
+    "Next.js",
     "SQL Server",
     "MySQL",
     "Linux Administration",
@@ -54,7 +56,7 @@ export const DATA = {
       start: "May 2022",
       end: "Present",
       description:
-        "Built and deployed internal web applications using Laravel and Vue to streamline company operations. Automated reporting workflows, significantly reducing manual processing time, and collaborated with IT security teams to ensure compliance with banking standards.",
+        "Built and deployed internal web applications using Laravel to streamline company operations. Automated reporting workflows, significantly reducing manual processing time, and collaborated with IT security teams to ensure compliance with banking standards.",
     },
     {
       company: "Wajah SIBA Nusantara",
@@ -67,17 +69,17 @@ export const DATA = {
       description:
         "Built digital systems with Laravel to streamline operations, created responsive dashboards for improved usability, and implemented enhancements based on user feedback.",
     },
-    {
-      company: "Intan Medika Clinic",
-      badges: [],
-      location: "Kepulauan Riau, Indonesia",
-      title: "Data Entry Clerk",
-      logoUrl: "medika.png",
-      start: "May 2021",
-      end: "Jul 2021",
-      description:
-        "Contributed during the Covid-19 pandemic by managing patient records with Microsoft Access, ensuring accuracy, confidentiality, and compliance with medical standards. Supported healthcare staff by maintaining reliable databases that were critical to daily clinical operations during a challenging period.",
-    },
+    // {
+    //   company: "Intan Medika Clinic",
+    //   badges: [],
+    //   location: "Kepulauan Riau, Indonesia",
+    //   title: "Data Entry Clerk",
+    //   logoUrl: "medika.png",
+    //   start: "May 2021",
+    //   end: "Jul 2021",
+    //   description:
+    //     "Contributed during the Covid-19 pandemic by managing patient records with Microsoft Access, ensuring accuracy, confidentiality, and compliance with medical standards. Supported healthcare staff by maintaining reliable databases that were critical to daily clinical operations during a challenging period.",
+    // },
     {
       company: "Baliyoni Saguna",
       badges: [],
@@ -96,17 +98,17 @@ export const DATA = {
       href: "https://uib.ac.id",
       degree: "Bachelor of Science in Information Technology (B.Sc. IT)",
       logoUrl: "uib.png",
-      start: "2022",
-      end: "2026 (Expected)",
+      start: "",
+      end: "",
     },
-    {
-      school: "Bali Global Badung Vocational High School of Information Technology",
-      href: "https://www.smktibaliglobalbadung.sch.id",
-      degree: "Software Engineering",
-      logoUrl: "smk.png",
-      start: "2017",
-      end: "2020",
-    },
+    // {
+    //   school: "Bali Global Badung Vocational High School of Information Technology",
+    //   href: "https://www.smktibaliglobalbadung.sch.id",
+    //   degree: "Software Engineering",
+    //   logoUrl: "smk.png",
+    //   start: "",
+    //   end: "",
+    // },
   ],
   projects: [
     {
@@ -252,11 +254,11 @@ export const DATA = {
       location: "Batam International University",
       description: "Awarded Best Paper at the National Conference for Community Service Project for developing DanusCrypt, an AES-based encryption system that enhanced information security and strengthened project reliability at BPR Dana Nusantara.",
       image: "nacospro.png",
-      links: [
+links: [
         {
-          title: "YouTube",
-          href: "https://www.youtube.com/watch?v=E50-ZYNLI6s&t=25930s",
-          icon: <Icons.youtube className="size-3" />,
+          title: "PDF",
+          href: "best_paper_certificate_the_7th_na_cos_pro_2025_i_putu_fredika_putra.pdf",
+          icon: undefined
         },
       ],
     },
