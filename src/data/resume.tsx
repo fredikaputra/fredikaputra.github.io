@@ -110,7 +110,7 @@ export const DATA = {
     //   end: "",
     // },
   ],
-  projects: [
+projects: [
     {
       title: "Veilenth",
       dates: "",
@@ -152,6 +152,26 @@ export const DATA = {
       image: "",
       video: "/noisely.mov",
       link: "/projects/noisely",
+    },
+    {
+      title: "Limit Order Exchange Mini Engine",
+      dates: "",
+      description:
+        "A full-stack limit order exchange engine built with Laravel API and Vue.js, featuring real-time trading with financial data integrity, concurrency-safe balance management, and instant order matching via WebSocket connections. Implements atomic transaction handling, 1.5% commission processing, and live order book updates for seamless trading experience.",
+      technologies: [
+        "Laravel",
+        "Vue.js",
+        "MySQL",
+        "Pusher",
+        "Tailwind",
+        "Real-time Trading",
+        "Financial Systems",
+        "Concurrency Safety"
+      ],
+      links: [],
+      image: "",
+      video: "/limit-order-exchange.mov",
+      link: "/projects/limit-order-exchange",
     },
     {
       title: "Tracking Project",
