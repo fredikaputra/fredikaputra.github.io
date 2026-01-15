@@ -4,11 +4,11 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Fredika Putra",
   url: "https://fredika.dev",
-  location: "Kepulauan Riau, Indonesia",
+  location: "Batam, Indonesia",
   description:
     "Turning complex problems into elegant solutions, building applications that work seamlessly, and constantly exploring what's next in technology.",
   summary:
-    "I'm a full-stack developer with experience in Laravel and React, currently creating secure and efficient systems in the banking sector. I enjoy tackling complex problems and building solutions that make a real impact.",
+    "I am a Remote Laravel Developer based in Indonesia with a strong background in backend development. I specialize in building web applications using PHP and Laravel and I am passionate about writing clean, efficient code.",
   skills: [
     "Laravel",
     "Livewire",
@@ -23,6 +23,8 @@ export const DATA = {
     "Docker",
     "PHPUnit",
     "PEST",
+    "PHPStan",
+    "Rector",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -50,18 +52,18 @@ export const DATA = {
     {
       company: "BPR Dana Nusantara",
       badges: [],
-      location: "Kepulauan Riau, Indonesia",
+      location: "Batam, Indonesia",
       title: "Full Stack Developer",
       logoUrl: "danus.png",
       start: "May 2022",
-      end: "Present",
+      end: "Sept 2025",
       description:
         "Built and deployed internal web applications using Laravel to streamline company operations. Automated reporting workflows, significantly reducing manual processing time, and collaborated with IT security teams to ensure compliance with banking standards.",
     },
     {
       company: "Wajah SIBA Nusantara",
       badges: [],
-      location: "Kepulauan Riau, Indonesia",
+      location: "Batam, Indonesia",
       title: "Full Stack Developer",
       logoUrl: "siba.webp",
       start: "Aug 2021",
@@ -72,7 +74,7 @@ export const DATA = {
     // {
     //   company: "Intan Medika Clinic",
     //   badges: [],
-    //   location: "Kepulauan Riau, Indonesia",
+    //   location: "Batam, Indonesia",
     //   title: "Data Entry Clerk",
     //   logoUrl: "medika.png",
     //   start: "May 2021",
@@ -84,7 +86,7 @@ export const DATA = {
       company: "Baliyoni Saguna",
       badges: [],
       location: "Bali, Indonesia",
-      title: "Web Developer Intern",
+      title: "Front-end Web Developer",
       logoUrl: "baliyoni.png",
       start: "Jul 2018",
       end: "Nov 2018",
